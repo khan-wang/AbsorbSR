@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "absorbsr"
+version = "0.2.0"
+description = "Pairwise trajectory allocation for training-free diffusion super-resolution"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+  { name = "AbsorbSR contributors" },
+]
+dependencies = [
+  "numpy>=1.24",
+]
+
+[tool.setuptools.packages.find]
+include = ["absorbsr*"]

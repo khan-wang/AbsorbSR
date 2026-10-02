@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "schedule_type": "explicit",
+  "method_id": "pairwise_subadditive_lambda_050",
+  "backbone": "ToyTransformer",
+  "num_steps": 6,
+  "num_blocks": 4,
+  "skip_blocks_by_step": [
+    [
+      0,
+      1
+    ],
+    [
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0
+    ]
+  ],
+  "metadata": {
+    "stage_boundaries": [
+      0,
+      2,
+      4,
+      6
+    ],
+    "budget_per_stage": null,
+    "uniform_over_time": true,
+    "omission_budget": 9,
+    "schedule_sha256": "598ee5110413e186f524c6604093e2dcd7db74673cd46dee76928d7848efec96"
+  }
+}

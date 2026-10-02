@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the AbsorbSR research-code repository."
+title: "AbsorbSR Research Code"
+type: software
+license: MIT
+repository-code: "https://github.com/khan-wang/AbsorbSR"
+keywords:
+  - diffusion super-resolution
+  - inference acceleration
+  - trajectory interaction
+  - structured depth reduction

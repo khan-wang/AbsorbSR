@@ -1,0 +1,54 @@
+{
+  "selection_data": "endpoint singleton and pair interventions; ground truth is not used",
+  "kernel": {
+    "lambda": 0.5,
+    "full_descriptor": {
+      "pair_count": 18,
+      "ridge_alpha": 1.0,
+      "cancellation_mean": 0.20000000000000004,
+      "cancellation_median": 0.20000000000000004,
+      "cancellation_clip": [
+        0.19999999999999987,
+        0.20000000000000015
+      ],
+      "fit_rmse": 6.703608384223791e-17,
+      "feature_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "geometry_descriptor": {
+      "pair_count": 18,
+      "ridge_alpha": 1.0,
+      "cancellation_mean": 0.20000000000000004,
+      "cancellation_median": 0.20000000000000004,
+      "cancellation_clip": [
+        0.19999999999999987,
+        0.20000000000000015
+      ],
+      "fit_rmse": 6.861361929636547e-17,
+      "feature_indices": [
+        2,
+        3
+      ]
+    }
+  },
+  "solver": {
+    "objective": 0.21333345770835876,
+    "winner_restart": 0,
+    "restarts": 2,
+    "iterations_per_restart": 120,
+    "uniform_over_time": true,
+    "omission_budget": 9,
+    "schedule_sha256": "598ee5110413e186f524c6604093e2dcd7db74673cd46dee76928d7848efec96"
+  },
+  "lambda": 0.5,
+  "block_calls": 15
+}
